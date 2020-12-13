@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+    <Button
+        android:background="#E91E63"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点击开始和再次点击暂停倒计时"
+        android:onClick="btnDaoJiShi"/>
+    <TextView android:text=" 30秒\n倒计时"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="90sp"
+        android:id="@+id/textView"/>
+    <TextView
+        android:padding="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFC107"
+        android:text="减1直到0"
+        android:textSize="35dp"/>
+
+</LinearLayout>
